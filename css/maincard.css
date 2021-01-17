@@ -1,0 +1,163 @@
+.maincarddiv{
+
+    margin: 2%;
+   }
+   
+   .maincard{
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        transition: transform 0.2s ease-in;
+        margin: 2%;
+       }
+   
+   .images img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px; 
+     /* object-fit: cover; */
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+    h1.cardtitle{
+        font-size: 20px;
+        margin-bottom: -40px;
+        color: #fff;
+        text-shadow: 0px 15px 20px black;
+       }
+      
+      .des{
+        padding: 3px;
+        text-align: center;
+       
+        padding-top: 10px;
+              border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      button{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #4fb8df;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding:10px;
+        outline: none;
+      }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+   
+
+.maincard:hover{
+  transform: scale(1.05);
+  /* transform: translateY(-15px); */
+  /* box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25); */
+}
+
+.slider{
+  text-decoration: none;
+    /* background-color:#ce3635; */
+    text-align: center;
+    /* color:#fff; */
+    /* padding-top:10em; */
+    font-size: 20px;
+  
+}
+
+.slidingtext{
+  margin-top: -5rem;
+}
+
+@media (max-width: 768px){
+.maincarddiv {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 3rem;
+  /* margin-bottom: 3rem; */
+  margin-left: 24rem;
+  /* position: relative; */
+  width: 800%;
+}
+}
+
+@media (max-width: 420px){
+.conatiners {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 30rem;
+}
+}
+
+@media (max-width: 420px){
+.explorehead {
+    margin-left: 27rem;
+    margin-top: 6rem;
+    width: 100%;
+}
+}
+
+@media (max-width: 420px){
+  .slidingtext {
+    margin-top: -5rem;
+    margin-left: 14rem;
+    width: 500px;
+  }
+  }
+
+  @media (max-width: 420px){
+.wrapper .search-input {
+    margin-left: 20rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150%;
+}
+   }
+
+   @media (max-width: 420px){
+   h1.maincardhead {
+       margin-left: 26rem;
+       width: 100%;
+   }
+  }
+
+  @media (max-width: 420px){
+  .header {
+      margin-left: 29rem;
+      width: 119%;
+  }
+  }
+
+  @media (max-width: 420px){
+    .des {
+      padding: 3px;
+      text-align: center;
+      padding-top: 10px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      font-size: 2rem;
+  }
+    }
+    @media (max-width: 420px){
+    h1.cardtitle {
+      font-size: 40px;
+    }
+  }
